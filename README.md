@@ -42,34 +42,5 @@ The system is composed of:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/yourusername/Cipherlytics.git
-Navigate to the project directory:
-bash
-Copy code
-cd Cipherlytics
-Run the Gradle build:
-bash
-Copy code
-./gradlew build
-Running the Application
-To run the application locally, you need a servlet container like Tomcat or WildFly.
-Deploy the generated .war file to the servlet container.
-Access the API at http://localhost:8080/api/.
-Project Structure
-The following is the high-level structure of the project:
-
-/api: Contains all API-related code, including resource classes and service logic.
-/encryption: Encryption and decryption logic, including homomorphic encryption.
-/storage: Database interactions, models, and repository classes for encrypted data.
-/docs: Project documentation.
-Roadmap
-This is the initial plan and will evolve as the project progresses:
-
- Set up the basic RESTEasy API using Gradle
- Integrate homomorphic encryption (JPaillier/HElib)
- Add data storage using PostgreSQL/MongoDB
- Implement secure multi-party computation (optional)
- Add real-time monitoring with Prometheus and Grafana
- Build Docker containers for easy deployment
+Will be updated soon 
 
